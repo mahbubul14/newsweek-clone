@@ -96,6 +96,28 @@
   border-top: 13px solid #f72210;
 }
 
+/* main section css */
+
+/* .....................main section css..................... */
+
+.feat-img {
+  width: 30%;
+}
+
+.s-img {
+  width: 100px;
+  height: 90px;
+}
+
+.l-img {
+  width: 160px;
+  height: 140px;
+}
+
+.s-r-img {
+  width: 70px;
+}
+
 /* ............footer section css.......... */
 
 footer {
