@@ -1,14 +1,28 @@
-# newsweek-clone
-Built With
-HTML
-CSS
-Framework
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Newsweek clone (Bootstrap)
+
+> The project is a clone of the newsweek website.
+
+![](./images/desk-m-1.PNG)
+
+# Built With
+- HTML
+- CSS
+
+# Framework
+
 -Bootstrap 5
 
-Live Demo
-Live Demo Link
+## Live Demo
+[Live Demo Link](https://mahbubul14.github.io/newsweek-clone/)
 
-Getting Started
-Clone the project $ git clone https://github.com/igorkol91/NewsweekProject/
-Then open index.html in your browser
-To get a local copy up and running follow these simple example steps.
+👤 **Mahbub Alam**
+
+- GitHub: [@githubhandle](https://www.linkedin.com/in/mahbubul-alam-20595/)
+- Twitter: [@twitterhandle](https://twitter.com/MahbubA10454419)
+- LinkedIn: [LinkedIn](https://github.com/mahbubul14/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
