@@ -117,7 +117,7 @@ main {
 }
 
 .bg-grey {
-  background-color: #E9E8E9;
+  background-color: #e9e8e9;
 }
 
 .feat-img {
@@ -137,6 +137,28 @@ main {
 
 .s-r-img {
   width: 70px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* ...debate section... */
+
+.vs {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  text-align: center;
+  margin: 6px auto;
+  z-index: 1;
+}
+
+/* ...insight section... */
+
+.nowrap {
+  white-space: nowrap;
 }
 
 /* ............footer section css.......... */
