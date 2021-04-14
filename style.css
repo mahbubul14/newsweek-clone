@@ -1,39 +1,10 @@
-@font-face {
-  font-family: myFirstFont;
-  src: url();
-}
-
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-}
-
-body {
-  color: #333;
-  font-size: 13px;
-  line-height: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .main-logo {
   max-width: 180px;
-  width: 120px;
-  margin-top: 10px;
 }
 
 .main-lg-logo {
@@ -56,59 +27,6 @@ a {
 
 .top-nav {
   padding: 8px;
-}
-
-.top-sub {
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.block-title {
-  color: rgba(3, 3, 3, 0.4);
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 11px;
-}
-
-.overlay-trigger {
-  color: #f72210;
-  font: bold 17px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  padding: 8px 15px 9px;
-  background-color: rgba(255, 255, 255, 0.9);
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  z-index: 1;
-}
-
-.h2 {
-  font-size: 20px;
-  line-height: 24px;
-  font-family: "Roboto Condensed", sans-serif;
-  margin-bottom: 10px;
-  position: relative;
-  color: black;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.clear {
-  height: 18px;
-  background-color: #f4f5f7;
-  border-top: 1px solid #e2e2e2;
-}
-
-.featured-stories-layout {
-  margin-top: 20px;
-}
-
-.top-article-layout {
-  margin-bottom: 30px;
-}
-
-.featured-stories {
-  margin-top: 30px;
 }
 
 /* Navbar Start */
@@ -176,10 +94,6 @@ a {
   width: 140px;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
-}
-
-.main-body {
-  margin-top: 50px;
 }
 
 /* ............footer section css.......... */
