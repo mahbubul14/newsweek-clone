@@ -96,12 +96,33 @@
   border-top: 13px solid #f72210;
 }
 
-/* main section css */
-
 /* .....................main section css..................... */
 
+main {
+  margin-top: 75px;
+}
+
+.img-box {
+  position: relative;
+  text-align: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: -9px;
+}
+
+.img-text {
+  margin-top: 10px;
+}
+
+.bg-grey {
+  background-color: #E9E8E9;
+}
+
 .feat-img {
-  width: 30%;
+  width: 100%;
+  height: 100%;
 }
 
 .s-img {
