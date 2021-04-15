@@ -109,7 +109,8 @@ main {
 
 .bottom-left {
   position: absolute;
-  bottom: -9px;
+  bottom: -8px;
+  left: 0;
 }
 
 .img-text {
@@ -131,7 +132,7 @@ main {
 }
 
 .l-img {
-  width: 100%;
+  width: 99%;
   height: auto;
 }
 
@@ -189,6 +190,21 @@ main {
 
 .bg-light-sky {
   background-color: rgb(194, 212, 215);
+}
+
+/* insights part 2 */
+
+.insight2-img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .insight-box {
+    width: 90%;
+    height: auto;
+    margin-left: 50%;
+  }
 }
 
 /* ...form-section... */
