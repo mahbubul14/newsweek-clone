@@ -131,8 +131,8 @@ main {
 }
 
 .l-img {
-  width: 160px;
-  height: 140px;
+  width: 100%;
+  height: auto;
 }
 
 .s-r-img {
@@ -167,10 +167,42 @@ main {
   margin-right: 10px;
 }
 
+.story-container {
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  border-bottom: 1px solid rgb(237, 230, 230);
+  border-top: 1px solid rgb(237, 230, 230);
+}
+
+/* ...latest news section... */
+
+.news-container {
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  border-bottom: 1px solid rgb(237, 230, 230);
+  border-top: 1px solid rgb(237, 230, 230);
+}
+
+/* ...culture & travel section... */
+
+.bg-light-sky {
+  background-color: rgb(194, 212, 215);
+}
+
+/* ...form-section... */
+
+.n-icon {
+  max-width: 50px;
+  max-height: 30px;
+  margin-right: 10px;
+}
+
 /* ......................footer section css.................... */
 
 footer {
-  margin-top: 180px;
+  margin-top: 80px;
 }
 
 .footer-logo {
