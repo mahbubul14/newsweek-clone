@@ -127,7 +127,7 @@ main {
 
 .s-img {
   width: 100px;
-  height: 90px;
+  height: 100px;
 }
 
 .l-img {
@@ -161,7 +161,13 @@ main {
   white-space: nowrap;
 }
 
-/* ............footer section css.......... */
+/* ...more stories... */
+
+.space-r {
+  margin-right: 10px;
+}
+
+/* ......................footer section css.................... */
 
 footer {
   margin-top: 180px;
