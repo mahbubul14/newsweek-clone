@@ -99,7 +99,7 @@
 /* .....................main section css..................... */
 
 main {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 .img-box {
@@ -154,6 +154,19 @@ main {
   text-align: center;
   margin: 6px auto;
   z-index: 1;
+}
+
+.debate-section {
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .debate-section {
+    width: 200%;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+  }
 }
 
 /* ...insight section... */
