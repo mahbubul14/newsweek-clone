@@ -87,7 +87,7 @@
 
 .head-style {
   position: absolute;
-  top: 88px;
+  top: 87px;
   right: 0%;
   height: 20px;
   display: block;
@@ -98,8 +98,14 @@
 
 /* .....................main section css..................... */
 
-main {
-  margin-top: 50px;
+@media only screen and (max-width: 585px) {
+  main {
+    margin-top: 50px;
+  }
+}
+
+#top-story div {
+  order: 1;
 }
 
 .img-box {
@@ -166,6 +172,14 @@ main {
     width: 200%;
     border-top: 2px solid silver;
     border-bottom: 2px solid silver;
+  }
+}
+
+/* ...opinion section... */
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .opinion-section {
+    width: 200%;
   }
 }
 
