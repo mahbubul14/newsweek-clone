@@ -364,4 +364,34 @@ footer {
   .featured-stories-layout {
     margin-top: 0;
   }
+
+  .column-left {
+    width: 71%;
+  }
+
+  .flex-block {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .col1 {
+    width: 41%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+
+  .col2 {
+    width: 59%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+
+  #sticky1,
+  #sticky2,
+  #sticky3 {
+    position: sticky;
+    top: 60px;
+  }
 }
