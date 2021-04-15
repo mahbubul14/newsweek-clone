@@ -30,6 +30,11 @@ a {
   color: inherit;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .main-logo {
   max-width: 180px;
   width: 120px;
@@ -169,7 +174,7 @@ a {
 
 .head-style {
   position: absolute;
-  top: 88px;
+  top: 86px;
   right: 0%;
   height: 20px;
   display: block;
@@ -180,6 +185,128 @@ a {
 
 .main-body {
   margin-top: 50px;
+}
+
+.debate-vs {
+  position: relative;
+  height: 120px;
+}
+
+.debate-border-top {
+  border-top: 4px solid #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.image-icon {
+  position: absolute;
+  left: 0;
+}
+
+.debate-body {
+  padding-left: 80px;
+}
+
+.debate-heading {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 900;
+}
+
+.debate-by {
+  color: #555;
+  text-transform: uppercase;
+  font: 300 12px "Roboto Condensed", sans-serif;
+}
+
+.debate-author {
+  font: bold 14px "Roboto Condensed", sans-serif;
+  color: #555;
+}
+
+.vs-bar {
+  position: relative;
+}
+
+.vs-text {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
+}
+
+.debate-vs-2 {
+  position: relative;
+  height: 100px;
+  padding-bottom: 20px;
+}
+
+.image-icon-2 {
+  position: absolute;
+  right: 0;
+  height: 63px;
+  width: 63px;
+}
+
+.debate-body-2 {
+  padding-right: 80px;
+}
+
+.debate-border-bottom {
+  border-bottom: 4px solid #d9d9d9;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+}
+
+.debate-author-list {
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.border-bottom-list {
+  border-bottom: 1px solid #ddd;
+}
+
+.sponsor-head {
+  color: #3581f4;
+}
+
+.more-stories {
+  position: relative;
+}
+
+.list-border-top {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.list-image {
+  position: absolute;
+}
+
+.info {
+  padding-left: 100px;
+}
+
+.more-title {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.more-body {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  padding-top: 10px;
 }
 
 /* ............footer section css.......... */
@@ -207,4 +334,34 @@ footer {
 
 .footer3 {
   margin-top: -20px;
+}
+
+/* Hover */
+
+.vs-bar::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px);
+}
+
+.vs-bar::after {
+  top: 50%;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .featured-stories-layout {
+    margin-top: 0;
+  }
 }
