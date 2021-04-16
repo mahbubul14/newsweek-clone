@@ -87,7 +87,7 @@
 
 .head-style {
   position: absolute;
-  top: 88px;
+  top: 87px;
   right: 0%;
   height: 20px;
   display: block;
@@ -96,10 +96,164 @@
   border-top: 13px solid #f72210;
 }
 
-/* ............footer section css.......... */
+/* .....................main section css..................... */
+
+@media only screen and (max-width: 585px) {
+  main {
+    margin-top: 50px;
+  }
+}
+
+.img-box {
+  position: relative;
+  text-align: start;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.img-text {
+  margin-top: 10px;
+}
+
+.bg-grey {
+  background-color: #e9e8e9;
+}
+
+.feat-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.s-img {
+  width: 100px;
+  height: 100px;
+}
+
+.l-img {
+  max-width: 99%;
+  height: auto;
+}
+
+.s-r-img {
+  width: 70px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* ...debate section... */
+
+.vs {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  text-align: center;
+  margin: 6px auto;
+  z-index: 1;
+}
+
+.debate-section {
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .debate-section {
+    width: 200%;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+  }
+}
+
+/* ...opinion section... */
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .opinion-section {
+    width: 200%;
+  }
+}
+
+/* ...insight section... */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* ...more stories... */
+
+.space-r {
+  margin-right: 10px;
+}
+
+.story-container {
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  border-bottom: 1px solid rgb(237, 230, 230);
+  border-top: 1px solid rgb(237, 230, 230);
+}
+
+/* ...latest news section... */
+
+.news-container {
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  border-bottom: 1px solid rgb(237, 230, 230);
+  border-top: 1px solid rgb(237, 230, 230);
+}
+
+/* ...culture & travel section... */
+
+.bg-light-sky {
+  background-color: rgb(194, 212, 215);
+}
+
+/* insights part 2 */
+
+.insight2-img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .insight-box {
+    width: 350px;
+    height: auto;
+    margin-left: 50%;
+  }
+}
+
+/* ...form-section... */
+
+.n-icon {
+  max-width: 50px;
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+.form-box {
+  width: 320px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .form-box {
+    width: 350px;
+    height: auto;
+    margin-left: 50%;
+  }
+}
+
+/* ......................footer section css.................... */
 
 footer {
-  margin-top: 180px;
+  margin-top: 80px;
 }
 
 .footer-logo {
@@ -121,4 +275,15 @@ footer {
 
 .footer3 {
   margin-top: -20px;
+}
+
+/* .........mobile-view ordering........ */
+.mt-xs-6 {
+  padding-top: 15%;
+}
+
+@media only screen and (max-width: 380px) {
+  .mt-xs-6 {
+    margin-top: 10%;
+  }
 }
