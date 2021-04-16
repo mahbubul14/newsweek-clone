@@ -39,6 +39,9 @@ Go to (https://mahbubul14.github.io/newsweek-clone/)
 
 ## 🤝 Contributing
 
+Helloc
+
+
 Contributions, issues, and feature requests are welcome!
 
 # Show your support
