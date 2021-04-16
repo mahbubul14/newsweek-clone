@@ -677,4 +677,9 @@ footer {
     position: absolute;
     padding-top: 10px;
   }
+
+  .email2 {
+    display: inline-block;
+    width: 40%;
+  }
 }
