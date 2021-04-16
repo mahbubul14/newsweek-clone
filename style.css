@@ -34,6 +34,10 @@ ul {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .main-logo {
   max-width: 180px;
 }
@@ -540,6 +544,10 @@ footer {
 
 .subdiv2 {
   width: 250px;
+}
+
+.img-1 {
+  max-height: 300px;
 }
 
 @media screen and (min-width: 1024px) {
