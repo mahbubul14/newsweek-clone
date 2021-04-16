@@ -19,9 +19,14 @@
 
 👤 **Mahbub Alam**
 
-- GitHub: [@githubhandle](https://www.linkedin.com/in/mahbubul-alam-20595/)
+- GitHub: [@githubhandle](https://github.com/mahbubul14/)
 - Twitter: [@twitterhandle](https://twitter.com/MahbubA10454419)
-- LinkedIn: [LinkedIn](https://github.com/mahbubul14/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mahbubul-alam-20595/)
+
+👤 **Mahbub Alam**
+
+- GitHub: [@githubhandle](https://github.com/uzairali19)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/uzair-ali-964187166/)
 
 ## 🤝 Contributing
 
