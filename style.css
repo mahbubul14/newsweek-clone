@@ -9,7 +9,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 h1,
@@ -178,8 +178,8 @@ ul {
 }
 
 .l-img-1 {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 .s-r-img {
@@ -484,25 +484,62 @@ footer {
 
 /* Magazine Section */
 
-.icon-n {
-  flex: none;
-  display: inline-block;
-  width: 29px;
-  height: 28px;
-  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-  margin-right: 10px;
-}
-
 .logon {
   flex: none;
   display: block;
   width: 29px;
   height: 28px;
   background:
-    #f72210
-    url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg")
+    #f72210 url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg")
     no-repeat center/contain;
   margin: auto 10px;
+}
+
+.magzine-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+
+.first-header {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.bg-light1 {
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 10px;
+}
+
+.bg-light2 {
+  color: #3581f4;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-light3 {
+  color: black;
+  background-color: #c2d4d7;
+}
+
+.email2 {
+  width: 45%;
+  height: 38px;
+}
+
+.emaildiv {
+  width: 100%;
+}
+
+.subimage2 {
+  top: 30px;
+  left: 80px;
+}
+
+.subdiv2 {
+  width: 250px;
 }
 
 @media screen and (min-width: 1024px) {
