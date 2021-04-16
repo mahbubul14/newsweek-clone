@@ -106,7 +106,7 @@
 
 .img-box {
   position: relative;
-  text-align: center;
+  text-align: start;
 }
 
 .bottom-left {
@@ -165,7 +165,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
   .debate-section {
-    max-width: 200%;
+    width: 200%;
     border-top: 2px solid silver;
     border-bottom: 2px solid silver;
   }
@@ -218,7 +218,7 @@
 /* insights part 2 */
 
 .insight2-img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
