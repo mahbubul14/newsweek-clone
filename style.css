@@ -480,6 +480,31 @@ footer {
   right: 0;
 }
 
+/********** MIlestone 3 **********/
+
+/* Magazine Section */
+
+.icon-n {
+  flex: none;
+  display: inline-block;
+  width: 29px;
+  height: 28px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.logon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background:
+    #f72210
+    url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg")
+    no-repeat center/contain;
+  margin: auto 10px;
+}
+
 @media screen and (min-width: 1024px) {
   .featured-stories-layout {
     margin-top: 0;
