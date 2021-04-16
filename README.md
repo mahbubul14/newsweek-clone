@@ -4,7 +4,7 @@
 
 > The project is a clone of the newsweek [website](https://web.archive.org/web/20210120125445/https://www.newsweek.com/).
 
-![screenshot](.images/newsweek3)
+![screenshot](.images/newsweek3.PNG)
 
 # Built With:
 
