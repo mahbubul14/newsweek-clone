@@ -238,6 +238,18 @@
   margin-right: 10px;
 }
 
+.form-box {
+  width: 320px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .form-box {
+    width: 350px;
+    height: auto;
+    margin-left: 50%;
+  }
+}
+
 /* ......................footer section css.................... */
 
 footer {
@@ -263,4 +275,10 @@ footer {
 
 .footer3 {
   margin-top: -20px;
+}
+
+/* .........mobile-view ordering........ */
+
+@media screen and @media only screen and (min-width: 300px) and (max-width: 765px) {
+
 }
