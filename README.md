@@ -23,11 +23,6 @@
 - Twitter: [@twitterhandle](https://twitter.com/MahbubA10454419)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mahbubul-alam-20595/)
 
-👤 **Uzair Ali**
-
-- GitHub: [@githubhandle](https://github.com/uzairali19)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/uzair-ali-964187166/)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
