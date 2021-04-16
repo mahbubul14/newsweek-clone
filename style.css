@@ -133,6 +133,12 @@ img {
 
 /* .....................main section css..................... */
 
+@media only screen and (max-width: 585px) {
+  main {
+    margin-top: 50px;
+  }
+}
+
 .img-box {
   position: relative;
   text-align: center;
@@ -162,28 +168,9 @@ img {
   height: 100px;
 }
 
-.my-turn-items {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
-}
-
-.my-turn-body {
-  font: bold 16px/19px "Roboto Condensed", sans-serif;
-  color: rgba(3, 3, 3, 0.5);
-  margin-bottom: 10px;
-  padding: 15px 0 20px;
-}
-
 .l-img {
-  max-width: 100%;
+  max-width: 99%;
   height: auto;
-  max-height: 120px;
-}
-
-.l-img-1 {
-  max-width: 120px;
-  max-height: 120px;
 }
 
 .s-r-img {
@@ -209,6 +196,22 @@ img {
 .debate-section {
   border-top: 2px solid silver;
   border-bottom: 2px solid silver;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .debate-section {
+    max-width: 200%;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+  }
+}
+
+/* ...opinion section... */
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .opinion-section {
+    width: 200%;
+  }
 }
 
 /* ...insight section... */
@@ -254,6 +257,14 @@ img {
   height: auto;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .insight-box {
+    width: 350px;
+    height: auto;
+    margin-left: 50%;
+  }
+}
+
 /* ...form-section... */
 
 .n-icon {
@@ -287,6 +298,24 @@ footer {
 
 .footer3 {
   margin-top: -20px;
+}
+
+.my-turn-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.my-turn-body {
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.5);
+  margin-bottom: 10px;
+  padding: 15px 0 20px;
+}
+
+.l-img-1 {
+  max-width: 120px;
+  max-height: 120px;
 }
 
 .top-sub {
