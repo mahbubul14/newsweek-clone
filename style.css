@@ -1,19 +1,15 @@
-@font-face {
-  font-family: myFirstFont;
-  src: url();
-}
-
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 body {
+  background-color: #f4f5f6;
   color: #333;
   font-size: 13px;
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 h1,
@@ -23,6 +19,8 @@ h4,
 h5,
 h6 {
   font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 a {
@@ -33,12 +31,11 @@ a {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .main-logo {
   max-width: 180px;
-  width: 120px;
-  margin-top: 10px;
 }
 
 .main-lg-logo {
@@ -61,59 +58,6 @@ ul {
 
 .top-nav {
   padding: 8px;
-}
-
-.top-sub {
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.block-title {
-  color: rgba(3, 3, 3, 0.4);
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 11px;
-}
-
-.overlay-trigger {
-  color: #f72210;
-  font: bold 17px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  padding: 8px 15px 9px;
-  background-color: rgba(255, 255, 255, 0.9);
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  z-index: 1;
-}
-
-.h2 {
-  font-size: 20px;
-  line-height: 24px;
-  font-family: "Roboto Condensed", sans-serif;
-  margin-bottom: 10px;
-  position: relative;
-  color: black;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.clear {
-  height: 18px;
-  background-color: #f4f5f7;
-  border-top: 1px solid #e2e2e2;
-}
-
-.featured-stories-layout {
-  margin-top: 20px;
-}
-
-.top-article-layout {
-  margin-bottom: 30px;
-}
-
-.featured-stories {
-  margin-top: 30px;
 }
 
 /* Navbar Start */
@@ -174,7 +118,7 @@ ul {
 
 .head-style {
   position: absolute;
-  top: 86px;
+  top: 87px;
   right: 0%;
   height: 20px;
   display: block;
@@ -183,8 +127,211 @@ ul {
   border-top: 13px solid #f72210;
 }
 
-.main-body {
-  margin-top: 50px;
+/* .....................main section css..................... */
+
+.img-box {
+  position: relative;
+  text-align: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.img-text {
+  margin-top: 10px;
+}
+
+.bg-grey {
+  background-color: #e9e8e9;
+}
+
+.feat-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.s-img {
+  width: 100px;
+  height: 100px;
+}
+
+.my-turn-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.my-turn-body {
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.5);
+  margin-bottom: 10px;
+  padding: 15px 0 20px;
+}
+
+.l-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 120px;
+}
+
+.l-img-1 {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.s-r-img {
+  width: 70px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* ...debate section... */
+
+.vs {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  text-align: center;
+  margin: 6px auto;
+  z-index: 1;
+}
+
+.debate-section {
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+
+/* ...insight section... */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* ...more stories... */
+
+.space-r {
+  margin-right: 10px;
+}
+
+.story-container {
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  border-bottom: 1px solid rgb(237, 230, 230);
+  border-top: 1px solid rgb(237, 230, 230);
+}
+
+/* ...latest news section... */
+
+.news-container {
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  border-bottom: 1px solid rgb(237, 230, 230);
+  border-top: 1px solid rgb(237, 230, 230);
+}
+
+/* ...culture & travel section... */
+
+.bg-light-sky {
+  background-color: rgb(194, 212, 215);
+}
+
+/* insights part 2 */
+
+.insight2-img {
+  width: 100%;
+  height: auto;
+}
+
+/* ...form-section... */
+
+.n-icon {
+  max-width: 50px;
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+/* ......................footer section css.................... */
+
+footer {
+  margin-top: 80px;
+}
+
+.footer-logo {
+  max-width: 190px;
+}
+
+.fab {
+  color: rgb(99, 93, 93);
+  font-size: 1.5rem;
+}
+
+.s-m-list {
+  padding-right: 10px;
+}
+
+.footer1 {
+  border-bottom: 2px solid #f4f5f7;
+}
+
+.footer3 {
+  margin-top: -20px;
+}
+
+.top-sub {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.block-title {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+.overlay-trigger {
+  color: #f72210;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.h2 {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.clear {
+  height: 18px;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+}
+
+.featured-stories-layout {
+  margin-top: 20px;
+}
+
+.top-article-layout {
+  margin-bottom: 30px;
 }
 
 .debate-vs {
@@ -309,33 +456,6 @@ ul {
   padding-top: 10px;
 }
 
-/* ............footer section css.......... */
-
-footer {
-  margin-top: 180px;
-}
-
-.footer-logo {
-  max-width: 190px;
-}
-
-.fab {
-  color: rgb(99, 93, 93);
-  font-size: 1.5rem;
-}
-
-.s-m-list {
-  padding-right: 10px;
-}
-
-.footer1 {
-  border-bottom: 2px solid #f4f5f7;
-}
-
-.footer3 {
-  margin-top: -20px;
-}
-
 /* Hover */
 
 .vs-bar::before {
@@ -393,5 +513,23 @@ footer {
   #sticky3 {
     position: sticky;
     top: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .insight-box {
+    width: 350px;
+    height: auto;
+    margin-left: 50%;
+  }
+
+  .opinion-section {
+    width: 200%;
+  }
+
+  .debate-section {
+    max-width: 200%;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
   }
 }
