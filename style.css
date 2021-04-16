@@ -278,7 +278,12 @@ footer {
 }
 
 /* .........mobile-view ordering........ */
+.mt-xs-6 {
+  padding-top: 15%;
+}
 
-@media screen and @media only screen and (min-width: 300px) and (max-width: 765px) {
-
+@media only screen and (max-width: 380px) {
+  .mt-xs-6 {
+    margin-top: 10%;
+  }
 }
