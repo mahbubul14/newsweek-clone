@@ -523,7 +523,8 @@ footer {
   width: 29px;
   height: 28px;
   background:
-    #f72210 url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg")
+    #f72210
+    url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg")
     no-repeat center/contain;
   margin: auto 10px;
 }
@@ -558,8 +559,9 @@ footer {
 }
 
 .email2 {
-  width: 45%;
+  width: 80%;
   height: 38px;
+  margin-bottom: 10px;
 }
 
 .emaildiv {
@@ -577,6 +579,18 @@ footer {
 
 .img-1 {
   max-height: 300px;
+}
+
+.newsletter-image {
+  background:
+    url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+    center center / cover no-repeat;
+  height: 170px;
+  width: 100%;
+}
+
+.newsletter-body {
+  padding-top: 30px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -613,6 +627,22 @@ footer {
     position: sticky;
     top: 60px;
   }
+
+  .newsletter-container {
+    position: relative;
+    height: 350px;
+  }
+
+  .newsletter-image {
+    width: 48%;
+    height: 350px;
+    position: absolute;
+  }
+
+  .newsletter-body {
+    padding-left: 220px;
+    height: 350px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -630,5 +660,21 @@ footer {
     max-width: 200%;
     border-top: 2px solid silver;
     border-bottom: 2px solid silver;
+  }
+
+  .newsletter-container {
+    position: relative;
+  }
+
+  .newsletter-image {
+    width: 45%;
+    height: 200px;
+    display: inline-block;
+  }
+
+  .newsletter-body {
+    display: inline-block;
+    position: absolute;
+    padding-top: 10px;
   }
 }
