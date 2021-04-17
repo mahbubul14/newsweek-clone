@@ -3,6 +3,41 @@
   padding: 0;
 }
 
+body {
+  background-color: #f4f5f6;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 .main-logo {
   max-width: 180px;
 }
@@ -106,7 +141,7 @@
 
 .img-box {
   position: relative;
-  text-align: start;
+  text-align: center;
 }
 
 .bottom-left {
@@ -165,7 +200,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
   .debate-section {
-    width: 200%;
+    max-width: 200%;
     border-top: 2px solid silver;
     border-bottom: 2px solid silver;
   }
@@ -218,7 +253,7 @@
 /* insights part 2 */
 
 .insight2-img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -236,18 +271,6 @@
   max-width: 50px;
   max-height: 30px;
   margin-right: 10px;
-}
-
-.form-box {
-  width: 320px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-  .form-box {
-    width: 350px;
-    height: auto;
-    margin-left: 50%;
-  }
 }
 
 /* ......................footer section css.................... */
@@ -277,13 +300,401 @@ footer {
   margin-top: -20px;
 }
 
-/* .........mobile-view ordering........ */
-.mt-xs-6 {
-  padding-top: 15%;
+.my-turn-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
 }
 
-@media only screen and (max-width: 380px) {
-  .mt-xs-6 {
-    margin-top: 10%;
+.my-turn-body {
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.5);
+  margin-bottom: 10px;
+  padding: 15px 0 20px;
+}
+
+.l-img-1 {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.top-sub {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.block-title {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+.overlay-trigger {
+  color: #f72210;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.h2 {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.clear {
+  height: 18px;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+}
+
+.featured-stories-layout {
+  margin-top: 20px;
+}
+
+.top-article-layout {
+  margin-bottom: 30px;
+}
+
+.debate-vs {
+  position: relative;
+  height: 120px;
+}
+
+.debate-border-top {
+  border-top: 4px solid #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.image-icon {
+  position: absolute;
+  left: 0;
+}
+
+.debate-body {
+  padding-left: 80px;
+}
+
+.debate-heading {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 900;
+}
+
+.debate-by {
+  color: #555;
+  text-transform: uppercase;
+  font: 300 12px "Roboto Condensed", sans-serif;
+}
+
+.debate-author {
+  font: bold 14px "Roboto Condensed", sans-serif;
+  color: #555;
+}
+
+.vs-bar {
+  position: relative;
+}
+
+.vs-text {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
+}
+
+.debate-vs-2 {
+  position: relative;
+  height: 100px;
+  padding-bottom: 20px;
+}
+
+.image-icon-2 {
+  position: absolute;
+  right: 0;
+  height: 63px;
+  width: 63px;
+}
+
+.debate-body-2 {
+  padding-right: 80px;
+}
+
+.debate-border-bottom {
+  border-bottom: 4px solid #d9d9d9;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+}
+
+.debate-author-list {
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.border-bottom-list {
+  border-bottom: 1px solid #ddd;
+}
+
+.sponsor-head {
+  color: #3581f4;
+}
+
+.more-stories {
+  position: relative;
+}
+
+.list-border-top {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.list-image {
+  position: absolute;
+}
+
+.info {
+  padding-left: 100px;
+}
+
+.more-title {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.more-body {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  padding-top: 10px;
+}
+
+/* Hover */
+
+.vs-bar::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px);
+}
+
+.vs-bar::after {
+  top: 50%;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/********** MIlestone 3 **********/
+
+/* Magazine Section */
+
+.logon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background:
+    #f72210
+    url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg")
+    no-repeat center/contain;
+  margin: auto 10px;
+}
+
+.magzine-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+
+.first-header {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.bg-light1 {
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 10px;
+}
+
+.bg-light2 {
+  color: #3581f4;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.color-red {
+  color: #f72210;
+}
+
+.bg-light3 {
+  color: black;
+  background-color: #c2d4d7;
+}
+
+.email2 {
+  width: 80%;
+  height: 38px;
+  margin-bottom: 10px;
+}
+
+.emaildiv {
+  width: 100%;
+}
+
+.subimage2 {
+  top: 30px;
+  left: 80px;
+}
+
+.subdiv2 {
+  width: 250px;
+}
+
+.img-1 {
+  max-height: 300px;
+}
+
+.newsletter-image {
+  background:
+    url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+    center center / cover no-repeat;
+  height: 170px;
+  width: 100%;
+}
+
+.newsletter-body {
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe-text {
+    position: absolute;
+    top: 200px;
+  }
+
+  .subscribe-text-div {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .featured-stories-layout {
+    margin-top: 0;
+  }
+
+  .column-left {
+    width: 71%;
+  }
+
+  .flex-block {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .col1 {
+    width: 41%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+
+  .col2 {
+    width: 59%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+
+  #sticky1,
+  #sticky2,
+  #sticky3 {
+    position: sticky;
+    top: 60px;
+  }
+
+  .newsletter-container {
+    position: relative;
+    height: 350px;
+  }
+
+  .newsletter-image {
+    width: 48%;
+    height: 350px;
+    position: absolute;
+  }
+
+  .newsletter-body {
+    padding-left: 220px;
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .insight-box {
+    width: 350px;
+    height: auto;
+    margin-left: 50%;
+  }
+
+  .opinion-section {
+    width: 200%;
+  }
+
+  .debate-section {
+    max-width: 200%;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+  }
+
+  .newsletter-container {
+    position: relative;
+  }
+
+  .newsletter-image {
+    width: 45%;
+    height: 200px;
+    display: inline-block;
+  }
+
+  .newsletter-body {
+    display: inline-block;
+    position: absolute;
+    padding-top: 10px;
+  }
+
+  .email2 {
+    display: inline-block;
+    width: 40%;
   }
 }

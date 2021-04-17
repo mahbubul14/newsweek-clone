@@ -4,8 +4,6 @@
 
 > The project is a clone of the newsweek [website](https://web.archive.org/web/20210120125445/https://www.newsweek.com/).
 
-![screenshot](.images/newsweek3.PNG)
-
 # Built With:
 
 - HTML
@@ -36,6 +34,12 @@ Go to (https://mahbubul14.github.io/newsweek-clone/)
 - GitHub: [@githubhandle](https://github.com/mahbubul14/)
 - Twitter: [@twitterhandle](https://twitter.com/MahbubA10454419)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mahbubul-alam-20595/)
+
+👤 **Uzair Ali**
+
+- GitHub: [@githubhandle](https://github.com/uzairali19)
+- Twitter: [@twitterhandle](https://twitter.com/MahbubA10454419)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/uzair-ali-964187166/)
 
 ## 🤝 Contributing
 
